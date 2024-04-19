@@ -58,6 +58,6 @@ function calculaTempo(tempoObjetivo) {
     if (tempoFinal > 0){
         return [dias,horas,minutos,segundos]
     } else {
-        return "ZERO";
+        return [0.0.0.0];
     }
 }
